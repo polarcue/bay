@@ -13,7 +13,7 @@ header:
   pages:
     - name: Home
       slug: /
-    # - name: Work
+# - name: Work
     - name: Blog
 
 footer:
@@ -50,6 +50,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+include: 
+  - [_sass]
 
 # Used for defeating caching
 version: 1
