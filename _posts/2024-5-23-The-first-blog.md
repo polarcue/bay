@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "the first blog"
-date:   2024-5-24 18:00:40
+date:   2024-5-23 18:00:40
 blurb: "静态博客完成的第一次发布"
 og_image: /assets/img/content/first/first.jpg
 ---
