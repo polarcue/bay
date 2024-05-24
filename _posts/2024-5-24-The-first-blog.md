@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "the first blog"
-date:   2019-10-26 10:00:40
+date:   2024-5-24 18:06:40
 blurb: "静态博客完成的第一次发布"
 og_image: /assets/img/content/first/first.jpg
 ---
@@ -35,9 +35,9 @@ og_image: /assets/img/content/first/first.jpg
 #### PART 2
 **而人生如戏**，且演且行，盛今而后衰，亦理之常情。吾友之助，宛若浮云之助风船，助我扬帆远航；其谋之智，饶有山海之卓识，架我砥柱，方能勇往直前。
 
-<img src="{{ "/assets/img/content/first/Banner.jpg" | absolute_url }}" alt="xing" class="post-pic"/>
+<img src="{{ "/assets/img/content/first/banner.jpg" | absolute_url }}" alt="xing" class="post-pic"/>
 <br />
-
+吾友之夜翻经纶，通宵不寐。
 <br />
 
 ##### PART 2 SUB PART 1
