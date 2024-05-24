@@ -5,7 +5,7 @@ title: poplarday
 description: >- # this means to ignore newlines until "baseurl:"
   a simple blog
 baseurl: "/bay" # the subpath of the site
-url: "https://poplarday.github.io" # the base hostname & protocol for the site
+url: "https://polarcue.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
 
@@ -19,14 +19,16 @@ header:
 footer:
   contact:
     - name: Email
-      value: poplarday@hotmail.com
-      link: poplarday@hotmail.com
+      value: waner@ik.me
+      link: waner@ik.me
     - name: WeChat
       value: ArcCicle
       link: "#"
   follow:
     - name: GitHub
-      link: http://github.com/poplarday
+      link: http://github.com/polarcue
+    - name: Bilibili
+      link: https://space.bilibili.com/481155413
     - name: RSS
       link: /feed.xml
 
