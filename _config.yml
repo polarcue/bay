@@ -27,6 +27,8 @@ footer:
   follow:
     - name: GitHub
       link: http://github.com/polarcue
+    - name: RSS
+      link: /feed.xml
     - name: Bilibili
       link: https://space.bilibili.com/481155413
     - name: RSS
