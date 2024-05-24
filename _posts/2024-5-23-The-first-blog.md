@@ -12,7 +12,7 @@ og_image: /assets/img/content/first/first.jpg
 
 
 抚今追昔，谨以心语述我初尝静态博文之情。是次经历，颇感岁月之飘渺，境遇之悲凉，及时势之不佳。[^1]
-大势已去，如潮水退却，无可挽回。然而，文人之志，岂因大势之去而消沉？。
+大势已去，如潮水退却，无可挽回。然而，文人之志，岂因大势之去而消沉？
 <br />
 <br />
 
@@ -35,7 +35,7 @@ og_image: /assets/img/content/first/first.jpg
 #### PART 2
 **而人生如戏**，且演且行，盛今而后衰，亦理之常情。吾友之助，宛若浮云之助风船，助我扬帆远航；其谋之智，饶有山海之卓识，架我砥柱，方能勇往直前。
 
-<img src="{{ "/assets/img/content/first/Banner.jpg" | absolute_url }}" alt="xing" class="post-pic"/>
+<img src="{{ "/assets/img/content/first/banner.jpg" | absolute_url }}" alt="xing" class="post-pic"/>
 
 <br />
 吾友之夜翻经纶，通宵不寐。
