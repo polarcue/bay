@@ -22,9 +22,9 @@
     {% assign page_description = site.description %}
   {% endif %}
 
-  {% assign page_url = page.url | replace: "index.html","" | replace: ".html","" | prepend: site.baseurl | prepend: site.url %}
+  {% assign page_url = page.url | replace: "index.html","" | replace: ".html","" | prepend: site.url %}
 
-  {% assign page_image = site.og_image | prepend: site.baseurl | prepend: site.url %}
+  {% assign page_image = site.og_image | prepend: site.url %}
   {% if page.og_image %}
     {% assign page_image = site.url + page.og_image %}
   {% endif %}
