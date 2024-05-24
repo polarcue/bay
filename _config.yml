@@ -31,8 +31,6 @@ footer:
       link: /feed.xml
     - name: Bilibili
       link: https://space.bilibili.com/481155413
-    - name: RSS
-      link: /feed.xml
 
 # Build settings
 markdown: kramdown
