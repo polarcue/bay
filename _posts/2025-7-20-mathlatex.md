@@ -13,7 +13,7 @@ blurb: "在GitHub pages引入latex公式以实现数学公式的渲染"
 
 mathjax_support.html详细代码:
 
-
+</code></pre>
 {% raw %}
 ```html
 <script type="text/x-mathjax-config">
@@ -43,7 +43,7 @@ mathjax_support.html详细代码:
 </script>
 
 {% endraw %}
-
+</code></pre>
 
 <br />
 <br />
