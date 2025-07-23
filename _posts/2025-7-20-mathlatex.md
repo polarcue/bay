@@ -14,8 +14,7 @@ blurb: "在GitHub pages引入latex公式以实现数学公式的渲染"
 mathjax_support.html详细代码:
 
 </code></pre>
-{% raw %}
-```html
+
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
       TeX: {
@@ -42,7 +41,6 @@ mathjax_support.html详细代码:
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-{% endraw %}
 </code></pre>
 
 <br />
