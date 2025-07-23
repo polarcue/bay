@@ -13,7 +13,7 @@ blurb: "在GitHub pages引入latex公式以实现数学公式的渲染"
 
 mathjax_support.html详细代码:
 
-</code></pre>
+<pre><code>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
