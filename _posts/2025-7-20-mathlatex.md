@@ -15,7 +15,7 @@ mathjax_support.html详细代码:
 
 
 {% raw %}
-
+```html
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
       TeX: {
