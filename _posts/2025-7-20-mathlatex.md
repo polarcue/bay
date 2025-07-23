@@ -14,37 +14,41 @@ blurb: "在GitHub pages引入latex公式以实现数学公式的渲染"
 mathjax_support.html详细代码:
 
 
+{% raw %}
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
-      TeX: {
-        equationNumbers: {
-          autoNumber: "AMS"
-        }
-      },
-      tex2jax: {
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
       inlineMath: [ ['$', '$'] ],
-      displayMath: [ ['$$', '$$'], ['\\[', '\\]'] ],
+      displayMath: [ ['$$', '$$'], ['\
+
+\[', '\\]
+
+'] ],
       processEscapes: true,
     }
   });
-  MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
-        alert("Math Processing Error: "+message[1]);
-      });
-  MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
-        alert("Math Processing Error: "+message[1]);
-      });
 </script>
 <script
   type="text/javascript"
   async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"
 ></script>
+{% endraw %}
+
 
 <br />
 <br />
 
 2.在_includes/head.html添加引入代码
+
+{% raw %}
 {% include mathjax_support.html %}
+{% endraw %}
 
 下面是一个公式的例子:
 $ e = m c^2 $
