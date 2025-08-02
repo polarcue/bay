@@ -46,7 +46,7 @@ mathjax_support.html详细代码:
 <br />
 <br />
 
-2.在_includes/head.html添加引入代码
+2.在_layout/default.html添加引入代码
 
 {% raw %}
 {% include mathjax_support.html %}
