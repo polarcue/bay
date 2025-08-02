@@ -32,18 +32,7 @@ footer:
 # Build settings
 markdown: kramdown
 kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter_opts:
-    block: true
-    inline: true
-  math_engine: mathjax
-  math_engine_opts:
-    mathjax_options:
-      tex2jax:
-        inlineMath: [ ["$", "$"], ["\\(", "\\)"] ]
-        displayMath: [ ["$$", "$$"], ["\\[", "\\]"] ]
-      processEscapes: true
+  math_engine: null
 sass:
     style: :compressed
 plugins:
