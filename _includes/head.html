@@ -29,6 +29,10 @@
     {% assign page_image = site.url + page.og_image %}
   {% endif %}
 
+    {% unless page.no_latex %}
+        {% include latex.html %}
+    {% endunless %}
+
   {% for follow in site.footer.follow %}
     {% if follow.type == 'twitter' %}
       {% assign twitter_username = follow.username %}
